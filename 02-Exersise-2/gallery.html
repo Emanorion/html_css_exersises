@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>MY GALLERY</h1>
+    </nav>
+    <div class="filterButtons">
+        <button class="btn active" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('landscapes')">Landscapes</button>
+        <button class="btn" onclick="filterSelection('portraits')">Portraits</button>
+        <button class="btn" onclick="filterSelection('archiitechture')">Architechture</button>
+    </div>
+    </div>
+    <div class="container">
+        <div class="filterDiv landscapes">
+            <img src="https://www.explore.com/img/gallery/the-50-most-incredible-landscapes-in-the-whole-entire-world/antelope-canyon-arizona-1672071022.webp" alt="landscapes">
+            <div class="landscape">
+                <h3>Antelope Canyon</h3>
+                <div class="overlay">
+                <div class="text">
+                    Classified as a slot canyon, <br> its upper reaches are approximately <br> 4,000 feet in elevation.
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv landscapes">
+            <img src="https://www.explore.com/img/gallery/the-50-most-incredible-landscapes-in-the-whole-entire-world/yuanyang-rice-terraces-in-china-1672071022.webp" alt="landscapes">
+            <div class="imgtitle">
+                <h3>Yuanyang Rice Terraces</h3>
+                <div class="overlay">
+                <div class="text">China's Yuanyang rice terraces <br> are built on a cascading <br> terrace spilling over gorgeous hillsides 
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv landscapes">
+            <img src="https://www.explore.com/img/gallery/the-50-most-incredible-landscapes-in-the-whole-entire-world/hornocal-mountains-argentina-1672071022.webp" alt="landscapes">
+            <div class="imgtitle">
+                <h3>Hornocal Mountains</h3>
+                <div class="overlay">
+                <div class="text">The incredible colors <br>and the inverted-V shaped <br>formation is part of the limestone <br> formation called yacoraite.
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv landscapes">
+            <img src="https://www.explore.com/img/gallery/the-50-most-incredible-landscapes-in-the-whole-entire-world/bromo-volcano-east-java-indonesia-1672071022.webp" alt="landscapes">
+            <div class="imgtitle">
+                <h3>Bromo Volcano, East Java</h3>
+                <div class="overlay">
+                <div class="text">Indonesia's Mount Bromo <br> has become a popular tourist attraction <br>because of the close proximity you can <br>get to the active craters <br>in the massif area
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv landscapes">
+            <img class="size" src="https://www.explore.com/img/gallery/the-50-most-incredible-landscapes-in-the-whole-entire-world/ashikaga-fuji-gardens-japan-1672071022.webp" alt="landscapes">
+            <div class="imgtitle">
+                <h3>Ashikaga Fuji Gardens</h3>
+                <div class="overlay">
+                <div class="text">People from all over the world <br>travel to the <br> Ashikaga Fuji Gardens Japan <br> to witness the spectacular <br> display of fuji flowers.
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv portraits">
+            <img src="https://www.singulart.com/blog/wp-content/uploads/2023/09/Mona-Lisa-by-Leonardo-da-Vinci-1031x1536.jpg" alt="portraits">
+            <div class="imgtitle">
+                <h3>Mona Lisa</h3>
+                <div class="overlay">
+                <div class="text">The Mona Lisa, Crafted by <br>the genius Leonardo da Vinci <br> between 1503 and 1506, <br> this painting is shrouded <br> in mystery and has sparked countless <br> debates and conspiracy theories.</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv portraits">
+            <img src="https://www.singulart.com/blog/wp-content/uploads/2023/10/Girl-with-a-Pearl.jpg" alt="911 turbo S">
+            <div class="imgtitle">
+                <h3>Girl with a Pearl Earring</h3>
+                <div class="overlay">
+                <div class="text">Johannes Vermeer’s <br> “Girl with a Pearl Earring” <br>is a testament to the Dutch masters <br> ability to capture light and emotion.</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv portraits">
+            <img class="size" src="https://www.singulart.com/blog/wp-content/uploads/2023/10/Whistlers-Mother-1024x911.jpg" alt="portraits">
+            <div class="imgtitle">
+                <h3>Whistler’s Mother</h3>
+                <div class="overlay">
+                <div class="text">James McNeill Whistler’s <br> “Arrangement in Grey and Black No. 1,” <br> more commonly known as <br>“Whistler’s Mother” (1871), <br> is a serene depiction of maternal love.</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv portraits">
+            <img src="https://www.singulart.com/blog/wp-content/uploads/2023/10/Self-Portrait-with-Cropped-Hair.jpg" alt="portraits">
+            <div class="imgtitle">
+                <h3>Self-Portrait by Frida Kahlo   </h3>
+                <div class="overlay">
+                <div class="text">
+                    <p>Frida Kahlo, the queen of unapologetic <br>self-expression, takes the stage with <br>“Self-Portrait with Cropped Hair” (1940) <br>. Kahlo, known for her bold style <br> and unibrow, painted this self-portrait <br>after divorcing Diego Rivera. <br>In playful defiance of gender norms <br>, she rocks a suit and cropped hair, <br> making a bold statement about identity <br> and independence</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv portraits">
+            <img src="https://www.singulart.com/blog/wp-content/uploads/2023/10/Portrait-of-Dr.-Gachet.jpg" alt="portraits">
+            <div class="imgtitle">
+                <h3>Portrait of Dr. Gachet</h3>
+                <div class="overlay">
+                <div class="text">Our artistic odyssey concludes with <br> Vincent van Gogh’s <br>“Portrait of Dr. Gachet” (1890)</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv archiitechture">
+            <img src="https://foxylabny.com/wp-content/uploads/2024/08/modern-architects-frank-gehry-walt-disney-concert-hall.webp" alt="archiitechture">
+            <div class="imgtitle">
+                <h3>Walt Disney Concert Hall</h3>
+                <div class="overlay">
+                <div class="text">photo by Anthony Fomin</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv archiitechture">
+            <img class="size" src="https://foxylabny.com/wp-content/uploads/2024/08/Norman-Foster-the-Gherkin-1281x1600.webp" alt="archiitechture">
+            <div class="imgtitle">
+                <h3>The Gherkin</h3>
+                <div class="overlay">
+                <div class="text"> Photograph: Lois GoBe/Alamy
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv archiitechture">
+            <img src="https://foxylabny.com/wp-content/uploads/2024/08/modern-architects-renzo-piano-the-shard.webp" alt="archiitechture">
+            <div class="imgtitle">
+                <h3>The Shard</h3>
+                <div class="overlay">
+                <div class="text">Renzo Piano’s The Shard, <br>photo from Structures Insider</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv archiitechture">
+            <img src="https://foxylabny.com/wp-content/uploads/2024/08/modern-architects-santiago-calatrava-athens-olympic-sports-complex-2401x1600.webp" alt="archiitechture">
+            <div class="imgtitle">
+                <h3>Olympic Sports Compelx</h3>
+                <div class="overlay">
+                <div class="text">Santiago Calatrava’s Athens Olympic <br>   Sports Compelx, photo from REUTERS.</div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv archiitechture">
+            <img src="https://foxylabny.com/wp-content/uploads/2024/08/santiago-calatrava-architecture-2400x1600.webp" alt="landscapes">
+            <div class="imgtitle">
+                <h3>The City of Arts and Science</h3>
+                <div class="overlay">
+                <div class="text">The City of Arts and Science, <br> Valencia. Photo by Calle Montes</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+function filterSelection(category) {
+  const items = document.querySelectorAll('.filterDiv');
+  items.forEach(item => {
+    if (category === 'all' || item.classList.contains(category)) {
+      item.style.display = '';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+
+  // Button active state
+  const btns = document.querySelectorAll('.filterButtons .btn');
+  btns.forEach(btn => btn.classList.remove('active'));
+  const activeBtn = Array.from(btns).find(btn => btn.textContent.toLowerCase().includes(category));
+  if (activeBtn) activeBtn.classList.add('active');
+}
+</script>
+</body>
+
+</html>
